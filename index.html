@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo | Serviços em Nuvem</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <p>
+            Informe a cidade desejada:</p>
+        <input class="escrever" type="text" id="cidade" name="cidade" required="required">
+        <br><br>
+        <button id="botao" type="button" value="Pesquisar informações de tempo" onclick="chamarServicoAPITempo()">
+            Consultar Previsão do Tempo</button>
+    </form>
+    <article id="resultado">
+    <p id="dados">Dados:</p>
+        <div id="cidade"></div>
+        <div id="tempo"></div>
+        <div id="descricao"></div>
+    </article>
+    <br>
+</body>
+
+</html>
