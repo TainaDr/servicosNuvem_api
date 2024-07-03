@@ -1,4 +1,4 @@
-# servicosNuvem_apiTempo
+# servicosNuvem_api
 
 Pesquisar Previsão do tempo, consumindo a API do Open Weather - https://openweathermap.org/
 ![Captura de Tela (292)](https://github.com/TainaDr/servicosNuvem_api/assets/88323837/167b88a1-9acb-4765-83c8-870b86d6c565)
