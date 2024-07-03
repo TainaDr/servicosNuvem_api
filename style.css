@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     margin: 0;
-    padding: 200px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ form {
     background-color: #c5f3ff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 input[type="text"] {
@@ -48,6 +48,18 @@ p{
 }
 
 #dados {
-    color: #000d3b;
+    color: #000720;
     font-size: larger;
+    
+}
+
+article {
+    background-color: #e3f9ff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000d3b;
+    padding: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 360px;
+    margin-right: 360px;
 }
